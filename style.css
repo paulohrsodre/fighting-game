@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', cursive;
+}
+
+main {
+  position: relative;
+  display: inline-block;
+}
+
+.hud-status {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 100px;
+  height: 50px;
+  flex-shrink: 0;
+  color: white;
+  border: 4px solid white
+}
+
+.health-bar1 {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  position: relative;
+  border-top: 4px solid white;
+  border-left: 4px solid white;
+  border-bottom: 4px solid white
+}
+
+.health-bar2 {
+  width: 100%;
+  position: relative;
+  border-top: 4px solid white;
+  border-right: 4px solid white;
+  border-bottom: 4px solid white
+}
+
+.health {
+  background-color: red;
+  height: 30px;
+  width: 100%;
+}
+
+.bar1 {
+  position: absolute;
+  background: #818CF8;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.bar2 {
+    position: absolute;
+    background: #818CF8;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+.label {
+  position: absolute;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
